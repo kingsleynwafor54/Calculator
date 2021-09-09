@@ -17,6 +17,7 @@ setResult("");
             setResult(eval(result).toString())
         } catch(err){
             setResult("Error")
+           console.log(result)
         }
     }
     return( 
